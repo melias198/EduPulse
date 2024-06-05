@@ -58,6 +58,7 @@
     }
 
     .banner-text, .banner-btn {
+        margin-top: 70px;
         flex-basis: auto;
         width: 100%;
         text-align: center;
@@ -69,7 +70,7 @@
     
 }
 
-/* feature */
+/* feature responsive */
 @media (max-width: 1200px) {
     .card {
         width: calc(50% - 40px);
@@ -99,3 +100,23 @@
         font-size: 1em;
     }
 } 
+
+
+/* testimonial responsive */
+@media (max-width: 1200px) {
+    .testimonial-card {
+        width: calc(33.33% - 40px);
+    }
+}
+
+@media (max-width: 768px) {
+    .testimonial-card {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .testimonial-card {
+        width: calc(100% - 40px);
+    }
+}
