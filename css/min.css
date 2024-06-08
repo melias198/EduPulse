@@ -1,5 +1,9 @@
 /* nav responsive */
 @media (max-width: 768px) {
+    .navbar{
+        padding: 9px 10px;
+    }
+
     .nav-link {
         display: none;
         flex-direction: column;
@@ -177,9 +181,9 @@
         text-align: center; /* Center text in about-item */
     }
 
-    .about-content h2 {
+    /* .about-content h2 {
         font-size: 18px;
-    }
+    } */
 
     .about-content p {
         font-size: 12px;

@@ -235,6 +235,11 @@ a{
     margin-bottom: 15px;
 }
 
+.card-icon img{
+    width: 50px;
+    height: 50px;
+}
+
 .card h3 {
     font-size: 1.5em;
     margin-bottom: 10px;
@@ -682,7 +687,7 @@ input, textarea {
 footer {
     background-color: #eceaea;
     color: #fff;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .footer-content {
@@ -788,14 +793,15 @@ footer {
 
 
 .about-content h2 {
-    font-size: 24px;
+    /* font-size: 24px; */
     color: #333333;
 }
 
 .about-content p {
     /* margin-top: 10px; */
-    font-size: 16px;
-    color: #666666;
+    /* font-size: 16px; */
+    font-size: 1em;
+    color: #333;
     line-height: 1.6;
 }
 
